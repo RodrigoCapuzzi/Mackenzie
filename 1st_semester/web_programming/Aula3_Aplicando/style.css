@@ -1,0 +1,74 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#cabecalho {
+  color: rgb(46, 81, 148);
+  padding: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  /*padding: 20px;*/
+}
+
+.menu {
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  list-style: none;
+  padding-left: 20px;
+}
+
+.foto {
+  /*padding: 20px;*/
+  padding-bottom: 40px;
+  width: 500px;
+}
+
+.foto:hover {
+  opacity: 0.7;
+}
+
+body {
+  background-color: rgb(181, 215, 255);
+  font-family: "Yantramanav", sans-serif;
+}
+
+article {
+  padding: 20px;
+}
+
+footer {
+  padding: 20px;
+}
+
+.paragrafo {
+  text-indent: 20px;
+}
+
+/*agora css da pag 2*/
+
+.video {
+  padding-top: 20px;
+  width: 560px;
+  height: 315px;
+}
+
+/* Agora é o css do formulario de contato*/
+
+.cabecalho2 {
+  font-size: large;
+  padding: 20px;
+}
+
+.tabela {
+  margin: 20px;
+}
+
+.cabecalho3 {
+  font-weight: bold;
+}

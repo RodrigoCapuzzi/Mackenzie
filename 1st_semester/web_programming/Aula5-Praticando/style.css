@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.wrapper {
+  margin: 50px;
+  width: 80%;
+}
+
+.header {
+  background-color: rgb(253, 253, 68);
+  text-align: center;
+  height: 40px;
+  width: 100%;
+}
+
+.lista {
+  background-color: rgb(113, 233, 233);
+  height: 70px;
+  width: 100%;
+  text-align: center;
+}
+
+.item1 {
+  position: relative;
+  top: 25px;
+  left: 25%;
+  float: left;
+}
+
+.item2 {
+  position: relative;
+  right: 20px;
+  top: 25px;
+}
+
+.item3 {
+  position: relative;
+  top: 5px;
+  right: 25%;
+  float: right;
+}
+
+.main {
+  background-color: rgb(211, 45, 211);
+  color: antiquewhite;
+  padding: 10px;
+  padding-top: 30px;
+  height: 80px;
+}
+
+.aside-1 {
+  background-color: yellow;
+  height: 40px;
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+.aside-2 {
+  background-color: rgb(240, 240, 166);
+  height: 40px;
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+.footer {
+  background-color: cyan;
+  height: 40px;
+  width: 100%;
+  clear: both;
+  text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+    margin: 0;
+    width: 100%;
+  }
+
+  .lista {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .item1 {
+    position: static;
+    float: none;
+  }
+
+  .item2 {
+    position: static;
+    float: none;
+  }
+
+  .item3 {
+    position: static;
+    float: none;
+  }
+
+  .aside-1 {
+    float: none;
+    width: 100%;
+  }
+
+  .aside-2 {
+    width: 100%;
+    float: none;
+  }
+}

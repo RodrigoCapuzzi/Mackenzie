@@ -1,0 +1,24 @@
+var nome = "Rodrigo Sanches Dias Capuzzi";
+var ano = 2022;
+var twitter = "twitter:@rodrigomackenzie";
+var facebook = "facebook:@rodrigomackenzie";
+var instagram = "instagram:@rodrigomackenzie";
+var linkedin = "linkedin:@rodrigomackenzie";
+var sexo = "Masculino";
+var polo = "Localização - polo: São Bernardo do Campo";
+
+document.write(nome);
+document.write("<br>");
+document.write(ano);
+document.write("<br>");
+document.write(twitter);
+document.write("<br>");
+document.write(facebook);
+document.write("<br>");
+document.write(instagram);
+document.write("<br>");
+document.write(linkedin);
+document.write("<br>");
+document.write(sexo);
+document.write("<br>");
+document.write(polo);

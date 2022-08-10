@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        var titulo = ['primeira','segunda','terceira','quarta'];
+        var notas = [0,0,0,0];
+        for(var i = 0; i < 4; i++){
+            do {
+                var res = prompt("Entre com a " + titulo[i] + " nota:");
+                if (res != null && res != "") {
+                    notas[i] = parseFloat(res);
+                }
+            }while(res == null || res == "");
+        }
+        var media = notas[0] + notas[1] + notas[2] + notas[3];
+        media = media / 4;
+        alert("notas = " + notas + "\nmédia = " + media);
+    </script>
+</body>
+</html>
+  

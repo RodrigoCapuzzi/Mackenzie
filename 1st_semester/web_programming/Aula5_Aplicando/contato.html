@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 id="cabecalho">Serviços em Nuvem</h1>
+    </header>
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="nuvem.html">Serviços em Nuvem</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+    <table class="tabela">
+      <thead>
+        <tr>
+          <th class="cabecalho2">Formulário de contato</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <form action="salvar.html" method="GET">
+              <fieldset>
+                <legend class="cabecalho3">Dados do Usuário</legend>
+
+                <label for="nomesobrenome">Nome e sobrenome</label>
+                <input
+                  type="text"
+                  name="nome"
+                  id="nomesobrenome"
+                  placeholder="Digite o seu nome"
+                  required
+                />
+                <br />
+                <br />
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  required
+                  placeholder="seuemail@dominio.com"
+                />
+                <br />
+                <br />
+                <label for="telefone">Telefone</label>
+                <input
+                  type="tel"
+                  id="telefone"
+                  required
+                  placeholder="(XX) XXXXX-XXXX"
+                />
+                <br />
+                <br />
+                <label>Selecione a cor do seu nome</label>
+                <input type="color" name="cor" />
+                <br />
+                <br />
+                <label>Sexo:</label>
+                <br />
+                <br />
+                <input name="sexo" type="radio" value="masculino" />
+                <label>Masculino</label>
+                <br />
+                <br />
+                <input name="sexo" type="radio" value="feminino" />
+                <label>Feminino</label>
+                <br />
+                <br />
+                <input
+                  name="sexo"
+                  type="radio"
+                  value="prefiro nao me identificar"
+                />
+                <label>Prefiro não me identificar</label>
+                <br />
+                <br />
+                <label>Cidade:</label>
+                <br />
+                <br />
+                <select name="cidade">
+                  <option selected value="">-- Selecione --</option>
+                  <option value="Atibaia">Atibaia</option>
+                  <option value="Pardinho">Pardinho</option>
+                  <option value="Bofete">Bofete</option>
+                </select>
+                <br />
+                <br />
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="70" rows="10" id="mensagem" required></textarea>
+              </fieldset>
+              <br />
+              <fieldset>
+                <legend>Como prefere o nosso contato?</legend>
+                <label for="radio-email"
+                  ><input
+                    type="radio"
+                    name="contato"
+                    value="email"
+                    id="radio-email"
+                  />
+                  Email</label
+                >
+
+                <label for="radio-telefone"
+                  ><input
+                    type="radio"
+                    name="contato"
+                    value="telefone"
+                    id="radio-telefone"
+                  />
+                  Telefone</label
+                >
+
+                <label for="radio-zap"
+                  ><input
+                    type="radio"
+                    name="contato"
+                    value="zap"
+                    id="radio-zap"
+                    checked
+                  />
+                  Zap</label
+                >
+              </fieldset>
+              <br />
+              <fieldset>
+                <legend>Qual horário prefere ser atendido?</legend>
+                <select>
+                  <option>Manhã</option>
+                  <option>Tarde</option>
+                  <option>Noite</option>
+                </select>
+              </fieldset>
+              <br />
+              <label
+                ><input type="checkbox" checked />Gostaria de receber nossas
+                novidades por email?</label
+              >
+
+              <input type="submit" value="Enviar formulário" />
+            </form>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

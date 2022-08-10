@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Aula 7</title>
+    <script>
+      var array = [
+        ['Futebol Europeu', 'Bayern FC', 7, 'Vermelho'],
+        ['Futebol Americano', 'Green Bay Packers', 6, 'Verde'],
+        ['Futebol Brasileiro', 'Corinthians', 5, 'Preto']
+      ]
+    </script>
+  </head>
+  <body>
+    <script>
+      for (var i = 0; i < array, length; i++) {
+        document.write(array[i] + '<br/>')
+      }
+    </script>
+    Futebol Europeu, Bayern FC, 7, Vermelho
+    <br />
+    Futebol Americano, Green Bay Packers, 6, Verde
+    <br />
+    Futebol Brasileiro, Corinthians, 5, Preto
+    <br />
+    <form>
+      <h1>Cor predominante:</h1>
+      <input
+        id="Vermelho"
+        type="radio"
+        name="color"
+        value="Vermelho"
+        onclick="onClick(0)"
+      />
+      <label htmlfor="Vermelho">Vermelho</label>
+      <input
+        id="Verde"
+        type="radio"
+        name="color"
+        value="Verde"
+        onclick="onClick(1)"
+      />
+      <label htmlfor="Verde">Verde</label>
+      <input
+        id="Preto"
+        type="radio"
+        name="color"
+        value="Preto"
+        onclick="onClick(2)"
+      />
+      <label htmlfor="Preto">Preto</label>
+    </form>
+    <script>
+      var imgs = ['bayern.png', 'gb.png', 'corinthians.jpg']
+      function onClick(index) {
+        document.write(array[index][0] + '</br>')
+        document.write(array[index][1] + '</br>')
+        document.write(array[index][2] + '</br>')
+        document.write("<img src='" + imgs[index] + "'/></br>")
+        document.write("<a href='aula7_aplicando.html'>voltar</a>")
+      }
+    </script>
+  </body>
+</html>
